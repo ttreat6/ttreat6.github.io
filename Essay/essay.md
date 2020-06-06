@@ -1,14 +1,13 @@
 **Tyler Treat**
 **Geog 458**
 
-#Story Map Essay Analysis
+<h1>Story Map Essay Analysis</h1>
 
-
-###An analysis on NOAA's Story Map of *Oil Spill Assessment for Marine Mammals*
+<h3>An analysis on NOAA's Story Map of *Oil Spill Assessment for Marine Mammals* </h4>
 
 As I come to the end of my college career and graduate with a degree in the Geography I find myself thinking about what I hope to do with the skills I have gained. I have found that I really enjoy mapping and working with water and marine environments so I chose this [story map](https://storymaps.arcgis.com/stories/867559ca52cd43a6b347ca13f0c4bff9) as it is something I could potentially see myself creating in the future.
 
-###Project Purpose, Goal, and Audience.
+<h4>Project Purpose, Goal, and Audience.</h4>
 
 ![](imgs/image_1.png)
 
@@ -20,7 +19,7 @@ The goals/purpose of this story map are as follows:
 
 It is also important to note the the authors of this story map are three marine biologist, Laurie Sullivan, Tom Bronsan, and Megan Ewald. Two of which have GIS skillsets which were used to create this map. The data that they used were all opensourced and pulled directly from NOAA's public domain.
 
-###Story Map Main Sections
+<h4>Story Map Main Sections</h4>
 
 When going through the story map, the **first section** provides readers with an interactive map that shows the locations of oil spills around the U.S. and Puerto Rico.
 ![](imgs/image_2.png)
@@ -109,6 +108,7 @@ The tail end of the story map contains all the contact information for the autho
 
 ![](imgs/image_10.png)
 
+<h4>Conclusion</h4>
 
 Overall, I think this was a great storymap. While the maps did support a responsive design, but because the purpose of this storymap was to be simple enough for most to undestand they didn't need it to be particularly 'fancy'. Knowing that I think their choice on the maps was pretty good. However, I do wish they included just a bit more information within the pop ups, or even added a map that references sighted animals in oil spill locations in order to provide a bigger impact at just how many animals can be affected by an oil spill. I also noticed that there was no North Arrows or scale bars which was strange and I would personally want to add. The UI/UX was simple but elegent on all part of this storymap. It included a balanced integration of images and videos as well as the maps, an it was interactive enough with the scrolling and maps to keep the users interested in reading compared to a single page scroller. The section organization made sense and was set up in a manner that effectively tells the story of oils spills and marine mammals.
 

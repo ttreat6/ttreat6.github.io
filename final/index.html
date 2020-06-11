@@ -24,7 +24,7 @@
 
     <!--Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/storymap.2.5.css">
+    <link rel="stylesheet" type="text/css" href="CSS/storymap.2.5.css">
     <!--add required libraries-->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"></script>
@@ -40,7 +40,7 @@
     <!--mini globle map-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.min.js"></script>
-    <script src="../../js/globeminimap.js"></script>
+    <!--<script src="../../js/globeminimap.js"></script>-->
 
     <!--story map plugin-->
     <script src="js/storymap.2.5.js"></script>
@@ -66,7 +66,7 @@
 
             <section data-scene="Blm">
                 <h2>Black Lives Matter</h2>
-                <img src="blm.jpg" width="100%">
+                <img src="img/blm.jpg" width="100%">
                 <i>Tweets Mentioning black lives matter.</i>
                 <p><center>This section particularly show the regional and location trends in regards, or in favor of the
                 black lives matter movement</p>
@@ -77,7 +77,7 @@
 
             <section data-scen="Alm">
                 <h2>Opposition</h2>
-                <img src="img/partymap.jpg" width="100%">
+                <img src="img/partymap.png" width="100%">
                 <i>Tweets in opposition of the movement</i>
                 <p><center>While all lives certainly do matter, the current and apparent need to abolish <thead>
                   systemic racism of the world and the opression of the black communities and people of color takes
@@ -191,7 +191,7 @@
 
     var scenes = {
         overview: {lat: 36.7428551132, lng: 139.570799769, zoom: 7, name: 'Cover Page'},
-        Blm: {lat: 35.738438, lng: 139.574253, zoom: 5, name: 'Black Lives Matter', layers: [layers.blm_mark1,layers.blm_mark2,layers.blm_mark3,layers.blm_mark4,layers.blm_mark5,layers.blm_mark6
+        Blm: {lat: 35.738438, lng: 139.574253, zoom: 5, name: 'Black Lives Matter', layers: [layers.blm_mark1,layers.blm_mark2,layers.blm_mark3,layers.blm_mark4,layers.blm_mark5,layers.blm_mark6,
         layers.blm_mark7,layers.blm_mark8,layers.blm_mark9,layers.blm_mark10,layers.blm_mark11,layers.blm_mark12,layers.blm_mark13]},
         Alm: {lat: 35.741503, lng: 139.699505, zoom: 5, name: 'All Lives Matter', layers: [layers.alm_mark1,layers.alm_mark2,layers.alm_mark3,layers.alm_mark4,layers.alm_mark5,layers.alm_mark6,
         layers.alm_mark7,layers.alm_mark8]},
